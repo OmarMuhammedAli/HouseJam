@@ -1,7 +1,7 @@
 from flask import Flask
 
 # Local imports
-from .api.api import api
+from .api import api
 
 
 def create_app():
